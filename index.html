@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Accesorios</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+          <img src="logito.png" alt="Logo">
+          <!-- <span>Glam Accesorios</span> -->
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+  <!-- <section class="slider">
+    <div class="slides">
+      <img src="https://via.placeholder.com/1200x400?text=Accesorios+únicos" alt="Slide 1" />
+      <img src="https://via.placeholder.com/1200x400?text=Nuevas+colecciones" alt="Slide 2" />
+      <img src="https://via.placeholder.com/1200x400?text=Estilo+y+elegancia" alt="Slide 3" />
+    </div>
+  </section> -->
+
+  <section class="slider-wrap">
+    <!-- Banner lateral izquierdo -->
+    <div class="slider-side left-banner">
+      <div class="banner-content">
+        <dotlottie-player src="https://lottie.host/f0b17ada-fdf8-470a-a4e2-9152b7e11544/QrG3vrtAqI.lottie" background="transparent" speed="1" style="width: auto;" loop autoplay>
+    
+        </dotlottie-player>
+      </div>
+    </div>
+  
+    <!-- SLIDER CENTRAL -->
+    <div class="slider">
+      <div class="slides">
+        <img src="bienvenido.jpg" alt="Slide 1" />
+        <img src="welcome.png" alt="Slide 2" />
+        <img src="bienvenido.jpg" alt="Slide 3" />
+      </div>
+    </div>
+  
+    <!-- Banner lateral derecho -->
+    <div class="slider-side right-banner">
+      <div class="banner-content">
+        <dotlottie-player src="https://lottie.host/f0b17ada-fdf8-470a-a4e2-9152b7e11544/QrG3vrtAqI.lottie" background="transparent" speed="1" style="width: auto; " loop autoplay>
+    
+        </dotlottie-player>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="cta">
+    <div class="cta-box">
+      <h2>¡Descubre tu estilo!</h2>
+      <p>Explora nuestra nueva colección de collares, pulseras y más.</p>
+      <a href="#" class="btn">Ver Productos</a>
+    </div>
+    <div class="cta-box">
+      <h2>Envíos a todo el país</h2>
+      <p>Rápido y seguro, recibe tus accesorios en la puerta de tu casa.</p>
+      <a href="#" class="btn">Conoce más</a>
+    </div>
+  </section>
+<!-- CATEGORÍAS DESTACADAS -->
+<section class="popular-categories">
+    <h2 style="display: flex;align-items: center;justify-content: center;">
+      <div class="category-icons">
+        <div class="category">
+
+          <img src="star.png" alt="">
+        </div>
+      </div>
+       Categorías Más Populares 
+       <div class="category-icons">
+        <div class="category">
+
+          <img src="star.png" alt="">
+        </div>
+      </div>
+      
+    </h2>
+    <div class="category-icons">
+      <div class="category">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/2830/2830300.png" alt="Anillos"> -->
+        <img src="rings.png" alt="Anillos">
+
+        <p>Anillos</p>
+      </div>
+      <div class="category">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" alt="Collares"> -->
+        <img src="jewel.png" alt="Collares">
+
+        <p>Collares</p>
+      </div>
+      <div class="category">
+        <img src="earrings.png" alt="Cabello">
+
+        <p>Aretes</p>
+      </div>
+      <div class="category">
+        <img src="hair-clip.png" alt="Bolsos">
+
+        <p>Cabello</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- NOVEDADES / MÁS VENDIDOS -->
+  <section class="destacados">
+    <h2>Novedades</h2>
+    <div class="producto-grid">
+      <div class="producto">
+        <img src="cactus_close.jpg" alt="Producto 1">
+        <p>Collar estilo bohemio</p>
+      </div>
+      <div class="producto">
+        <img src="cactus_close.jpg" alt="Producto 2">
+        <p>Set de pulseras doradas</p>
+      </div>
+      <div class="producto">
+        <img src="cactus_close.jpg" alt="Producto 3">
+        <p>Aretes florales</p>
+      </div>
+    </div>
+  </section>
+
+   <section class="product-slider">
+    <h2>✨ Productos Destacados ✨</h2>
+  
+    <div class="product-slider-container">
+      <button class="arrow left" onclick="scrollProducts(-1)">&#10094;</button>
+  
+      <div class="product-carousel" id="productCarousel">
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Anillo">
+          <h3>Anillo Elegante</h3>
+          <p>$15.00</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Collar">
+          <h3>Collar de Perlas</h3>
+          <p>$22.00</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Aretes">
+          <h3>Aretes Glam</h3>
+          <p>$18.00</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Aretes">
+          <h3>Aretes Glam</h3>
+          <p>$18.00</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Aretes">
+          <h3>Aretes Glam</h3>
+          <p>$18.00</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Aretes">
+          <h3>Aretes Glam</h3>
+          <p>$18.00</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Aretes">
+          <h3>Aretes Glam</h3>
+          <p>$18.00</p>
+          <button>Ver más</button>
+        </div>
+        <div class="product-card">
+          <img src="cactus_close.jpg" alt="Aretes">
+          <h3>Aretes Glam</h3>
+          <p>$18.00</p>
+          <button>Ver más</button>
+        </div>
+        <!-- Agrega más productos si deseas -->
+      </div>
+  
+      <button class="arrow right" onclick="scrollProducts(1)">&#10095;</button>
+    </div>
+  </section>
+  
+  
+  <!-- LLAMADO FINAL -->
+  <section class="final-cta">
+    <h2>¿Quieres más estilo en tu vida?</h2>
+    <p>Síguenos en redes sociales o suscríbete a nuestro boletín para no perderte lo nuevo.</p>
+    <a href="#" class="btn">Síguenos</a>
+  </section>
+  
+  <!-- Botón flotante WhatsApp -->
+<a href="https://wa.me/1234567890" class="btn-whatsapp" target="_blank" title="Contáctanos por WhatsApp">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+  </a>
+  
+  <!-- Botón flotante ir arriba -->
+<!-- Botón flotante ir arriba con ícono elegante -->
+<button class="btn-top" onclick="scrollToTop()" title="Ir arriba">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+      <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.59 5.58L20 12l-8-8-8 8z"/>
+    </svg>
+  </button>
+  
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+  <script>
+    function scrollProducts(direction) {
+      const carousel = document.getElementById('productCarousel');
+      const cardWidth = carousel.querySelector('.product-card').offsetWidth + 24; // 24px de gap
+      carousel.scrollBy({
+        left: direction * cardWidth,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  <script>
+    // Función para desplazar automáticamente
+    let autoScrollInterval;
+  
+    function startAutoScroll() {
+      autoScrollInterval = setInterval(() => {
+        scrollProducts(1);
+      }, 3000); // Cambia el número para ajustar la velocidad (ms)
+    }
+  
+    function stopAutoScroll() {
+      clearInterval(autoScrollInterval);
+    }
+  
+    // Iniciar al cargar la página
+    window.addEventListener('load', startAutoScroll);
+  
+    // Pausar si el usuario pasa el mouse sobre el carrusel
+    const carousel = document.getElementById('productCarousel');
+    carousel.addEventListener('mouseenter', stopAutoScroll);
+    carousel.addEventListener('mouseleave', startAutoScroll);
+  </script>
+  
+  <script src="script.js"></script>
+</body>
+</html>

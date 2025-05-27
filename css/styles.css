@@ -5,8 +5,10 @@
   }
   
   body {
-    font-family: 'Segoe UI', sans-serif;
+    /*font-family: 'Segoe UI', sans-serif;*/
+     font-family:    sans-serif;
     line-height: 1.6;
+    
   }
   
   .navbar {
@@ -323,7 +325,7 @@
     height: 50px;
   }
   .logo span {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     font-size: 1.6rem;
     color: white;
     letter-spacing: 1px;
@@ -370,7 +372,7 @@
   }
   
   .product-slider h2 {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     color: #e91e63;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -495,7 +497,7 @@
   }
   
   .popular-categories h2 {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     color: #e91e63;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -531,7 +533,7 @@
   }
   
   .category:hover {
-    transform: scale(1.1);
+    transform: scale(0.8);
   }
   
 
@@ -885,7 +887,7 @@
     background-color: #f4f4f4;
     padding: 30px 20px 15px;
     text-align: center;
-    font-family: 'Segoe UI', sans-serif;
+    /* font-family: 'Segoe UI', sans-serif; */
     color: #333;
     border-top: 2px solid #eaeaea;
   }
